@@ -83,7 +83,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		/* background: #fff; */
+		background-color: #f8f9fa;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -98,7 +99,8 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		background-color: #f8f9fa; /* Light background */
+		color: #444;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -1895,7 +1897,7 @@ input, select, textarea {
 		input[type="checkbox"] + label,
 		input[type="radio"] + label {
 			text-decoration: none;
-			color: #a2a2a2;
+			color: #444;
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
@@ -2555,6 +2557,11 @@ input, select, textarea {
 
 	.work-item {
 		margin: 0 0 2em 0;
+		/* background: #ffffff; */
+		border-left: 2px solid #ddd; /* Light border for subtle separation */
+		padding: 20px;
+		margin: 20px 0;
+		border-radius: 20px;
 	}
 
 		.work-item .image {
